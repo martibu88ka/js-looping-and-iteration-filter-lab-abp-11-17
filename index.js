@@ -12,4 +12,4 @@ function findMatching (drivers,name){
 }
 
 function fuzzyMatch(drivers, name){
-  drivers.name =drivers.filter(driver.name.slice[0,1])
+  (drivers.name) = (drivers.filter(driver.name.slice[0,1]))
