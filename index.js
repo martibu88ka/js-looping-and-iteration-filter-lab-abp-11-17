@@ -13,7 +13,7 @@ function findMatching (drivers,name){
 
 function fuzzyMatch(drivers, name){
   let fuxx= drivers.filter(function(name){
-    if ((name.slice[0,1,2].toLowerCase)===(name.slice[0,1,2].toUpperCase)){
+    if ((name.slice[0,1].toLowerCase)===(name.slice[0,1].toUpperCase)){
       return true
     }else{
       return false
