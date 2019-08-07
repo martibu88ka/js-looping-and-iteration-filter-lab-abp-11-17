@@ -14,5 +14,7 @@ function findMatching (drivers,name){
 function fuzzyMatch(drivers, ""){
   if drivers.name[0,1]===drivers.name [0,1]{
     return true
+  }else{
+    return false;
   }
 }
