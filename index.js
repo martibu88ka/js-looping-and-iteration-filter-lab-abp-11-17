@@ -10,3 +10,9 @@ function findMatching (drivers,name){
   })
   return MatchingDrivers
 }
+
+function fuzzyMatch(drivers, ""){
+  if drivers.name[0,1]===drivers.name [0,1]{
+    return true
+  }
+}
